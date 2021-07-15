@@ -11,6 +11,7 @@ Blog style Web Application for tech fans to share their studies/discoveries. <br
 - [Contact](#contact) <br />
 ## Installation
 No need to install, visit the live URL below. <br />
+https://techblogant.herokuapp.com/ <br />
 ## Usage
 The homepage will show all postings and comments. The user must sign in in order to comment or post. In My Dashboard, the user can edit/delete their posts. <br />
 ## License
