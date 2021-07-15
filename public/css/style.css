@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+h1 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+section.section {
+    padding: 0px;
+}
+.container {
+    padding: 20px;
+}
+body {
+    align-items: center;
+}
+nav{
+    background: linear-gradient(#cebc19, #003bb9);
+}
+.Yellowtail {
+    font-family: 'Yellowtail', cursive;
+    width: auto;
+    font-size: 40px;
+}
+.login-form {
+    flex: auto;
+    margin: auto;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+}   
+.posts {
+    width: 75%;
+    margin: 5px;
+}
+.newPostBox {
+    height: 60%;
+}

@@ -1,0 +1,33 @@
+<div class="m-auto">
+   {{#each allPosts as |post|}}
+   <div class="box posts" id={{post.id}}>
+      <article class="media">
+         <div class="media-content">
+            <div class="content">
+               <p>
+                  <strong>{{post.subject}}</strong> <small id={{post.user.username}}>{{post.user.username}}</small> <small>{{post.timestamp}}</small>
+                  <br>
+                  {{post.body}}
+               </p >
+               {{#each post.comments as |comment|}}
+                     <br>
+                     <p>
+                        <span class="icon is-small"><i class="fas fa-angle-double-right"></i></span>   {{comment.body}}  <small>{{comment.author_username}}</small> <small>{{comment.timestamp}}</small>
+                     </p>
+               {{/each}}
+            </div>
+            <div class="level is-mobile">
+            <div class="level-left">
+               <a class="level-item" aria-label="reply">
+                  <span class="icon is-small">
+                     <i onClick={commentModal({{post.id}})} class="fas fa-comments"></i>
+                  </span>
+               </a>
+            </div>
+            </div>
+         </div>
+      </article>
+   </div>
+   {{/each}}
+</div>
+

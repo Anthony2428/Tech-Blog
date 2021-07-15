@@ -1,0 +1,31 @@
+<div class="m-auto">
+   {{#each myPosts as |post|}}
+   <div class="box posts" id={{post.id}}>
+      <article class="media">
+         <div class="media-content">
+            <div class="content">
+            <p>
+               <strong>{{post.subject}}</strong> <small id={{post.user.username}}>{{post.user.username}}</small> <small>{{post.timestamp}}</small>
+               <br>
+               {{post.body}}
+            </p >
+            </div>
+            <div class="level is-mobile">
+            <div class="level-left">
+               <a class="level-item" aria-label="like">
+                  <span class="icon is-small">
+                  <i onClick={deletePost({{post.id}})} class="fas fa-trash"></i>
+                  </span>
+               </a>
+               <a class="level-item" aria-label="like">
+                  <span class="icon is-small">
+                  <i onClick={editModal({{post.id}})} class="fas fa-edit"></i>
+                  </span>
+               </a>
+            </div>
+            </div>
+         </div>
+      </article>
+   </div>
+   {{/each}}
+</div>
