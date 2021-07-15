@@ -1,7 +1,7 @@
 {
-  "name": "sportsbox",
+  "name": "techblog",
   "version": "1.0.0",
-  "description": "Basketball FanPage",
+  "description": "tech blog site",
   "main": "server.js",
   "scripts": {
     "seed": "node ./seeds/seed",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imanjit/sportsbox.git"
+    "url": "git+https://github.com/Anthony2428/Tech-Blog.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/imanjit/sportsbox/issues"
+    "url": "https://github.com/Anthony2428/Tech-Blog/issues"
   },
-  "homepage": "https://github.com/imanjit/sportsbox#readme",
+  "homepage": "https://github.com/Anthony2428/Tech-Blog#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "connect-session-sequelize": "^7.1.1",
