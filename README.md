@@ -19,7 +19,7 @@ No license was needed for this application. <br />
 ## Contributors
 Anthony2428 <br />
 ## Tests
-N/A<br />
+![Screenshot of Web App:](./Tech-Blog-Screenshot.png)
 ## Contact 
 Email: alopez0218.al@gmail.com<br /><br />
 GitHub: [Anthony2428](https://github.com/Anthony2428)<br />
