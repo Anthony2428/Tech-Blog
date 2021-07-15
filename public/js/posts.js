@@ -6,7 +6,12 @@ const today = () => {
     let mm = String(date.getMonth() + 1).padStart(2, '0'); //January is 0!
     let yyyy = date.getFullYear();
     let hh = String(date.getHours());
-    let mins = String(date.getMinutes());
+    let mins = date.getMinutes();
+    if (mins < 10) {
+        mins = String(date.getMinutes()).padStart(2, '0');
+    } else {
+        mins = String(date.getMinutes())
+    }
     let tod = 'AM';
 
     if (date.getHours() >= 13) {
